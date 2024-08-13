@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="mt-32 sm:mx-28 lg:mx-56">
+    <div className="mx-4 mt-16 sm:mx-28 sm:mt-32 lg:mx-56">
       <div className="text-xl font-semibold">A Next.js With TailwindCss Starter Template</div>
 
       <div className="text mt-12">
