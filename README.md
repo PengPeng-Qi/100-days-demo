@@ -1,12 +1,11 @@
 # Getting Started
 
-A Next.js with TailWind Starter Template
+100 Days Demo
 
 ## Contain
 
-- [x] GitHub Action Deploy
-- [x] CommitLint
-- [x] LintStaged
-- [x] Prettier
-- [x] Dark Theme
-- [x] Code Inspector
+- [x] Logo 动画
+- [ ] Dark Switch
+- [ ] 背景
+- [ ] 拉绳倒计时
+- [ ] Rgb Card

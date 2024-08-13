@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="mx-4 mt-16 sm:mx-28 sm:mt-32 lg:mx-56">
+    <div className="mx-4 mt-16 cursor-pointer sm:mx-28 sm:mt-32 lg:mx-56">
       <div className="text-xl font-semibold">100 Days Demo</div>
 
-      <div className="text mt-12">
+      <div className="text mt-9">
         <Button variant="link" className="pl-0">
           <Link href="/demo/logo">Logo 动画</Link>
         </Button>
-        <Button variant="link">
+        {/* <Button variant="link">
           <Link href="/demo/dark">dark mode switch</Link>
         </Button>
         <Button variant="link">
@@ -21,7 +21,7 @@ export default function Home() {
         </Button>
         <Button variant="link">
           <Link href="/demo/card">rgb 卡片</Link>
-        </Button>
+        </Button> */}
       </div>
     </div>
   );
