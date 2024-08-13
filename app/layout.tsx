@@ -1,14 +1,12 @@
 import DarkMode from "@/components/DarkMode";
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: "Next.js Tailwind Starter",
-  description: "A Next.js Tailwind Starter Template",
+  title: "100 days demo",
+  description: "100 days demo",
+  keywords: ["demos", "css demos"],
 };
 
 export default function RootLayout({
@@ -18,10 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} bg-white text-black dark:bg-black dark:text-white`}>
+      <body className={`bg-gary-100 dark:bg-gary-900 text-gray-900 dark:text-gray-100`}>
         <ThemeProvider>
           {children}
-
           <DarkMode />
         </ThemeProvider>
       </body>
