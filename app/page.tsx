@@ -16,6 +16,12 @@ export default function Home() {
         <Button variant="link">
           <Link href="/demo/background">背景动画</Link>
         </Button>
+        <Button variant="link">
+          <Link href="/demo/count-down">拉绳倒计时</Link>
+        </Button>
+        <Button variant="link">
+          <Link href="/demo/card">rgb 卡片</Link>
+        </Button>
       </div>
     </div>
   );
