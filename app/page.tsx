@@ -10,6 +10,9 @@ export default function Home() {
         <Button variant="link" className="pl-0">
           <Link href="/logo">Logo 动画</Link>
         </Button>
+        <Button variant="link" className="pl-0">
+          <Link href="/mobile-menu">移动端菜单</Link>
+        </Button>
         {/* <Button variant="link">
           <Link href="/dark">dark mode switch</Link>
         </Button>
