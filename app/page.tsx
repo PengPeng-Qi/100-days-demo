@@ -8,19 +8,19 @@ export default function Home() {
 
       <div className="text mt-9">
         <Button variant="link" className="pl-0">
-          <Link href="/demo/logo">Logo 动画</Link>
+          <Link href="/logo">Logo 动画</Link>
         </Button>
         {/* <Button variant="link">
-          <Link href="/demo/dark">dark mode switch</Link>
+          <Link href="/dark">dark mode switch</Link>
         </Button>
         <Button variant="link">
-          <Link href="/demo/background">背景动画</Link>
+          <Link href="/background">背景动画</Link>
         </Button>
         <Button variant="link">
-          <Link href="/demo/count-down">拉绳倒计时</Link>
+          <Link href="/count-down">拉绳倒计时</Link>
         </Button>
         <Button variant="link">
-          <Link href="/demo/card">rgb 卡片</Link>
+          <Link href="/card">rgb 卡片</Link>
         </Button> */}
       </div>
     </div>
