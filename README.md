@@ -8,6 +8,5 @@
 - [x] 移动端菜单栏
 - [x] Dark Switch
 - [ ] 背景底图
-- [ ] 拉绳倒计时
 - [ ] Rgb Card
 - [ ] Loading 效果
