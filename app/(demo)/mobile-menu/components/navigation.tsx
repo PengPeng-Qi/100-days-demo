@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { MenuItem } from "./MenuItem";
+import { MenuItem } from "./menu-item";
 
 const variants = {
   open: {
